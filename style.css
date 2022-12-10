@@ -1,0 +1,77 @@
+body{
+    padding: 50px 100px;
+    background-color: rgb(250, 207, 143);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/ban.png);
+    border-radius: 30px;
+}
+main{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.article{
+    background-color: white;
+    width: 900px;
+    height: 800px;
+    overflow: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+aside{
+    width: 400px;
+}
+.books{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 20px;
+    text-decoration: none;
+}
+article{
+    font-size: 32px;
+}
+
+.b{
+    padding: 50px;
+}
+#book-head{
+    padding-left: 50px;
+    background-color: rgb(236, 236, 236);
+}
+.h{
+    padding: 20px;
+}
+.blank{
+    padding: 20px;
+}
+section{
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.head{
+    padding: 15px;
+}
+input[type="text"]{
+    font-size: 15px;
+    padding: 9px;
+}
+button{
+    font-size: 20px;
+    padding: 9px;
+}
